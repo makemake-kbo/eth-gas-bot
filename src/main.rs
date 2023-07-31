@@ -12,7 +12,7 @@ use megalodon::pleroma::pleroma::Pleroma;
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let matches = Command::new("eth_gas_bot")
-        .version("0.1.0")
+        .version("0.1.1")
         .author("makemake <vukasin@gostovic.me>")
         .about("Pleroma bot that tracks the current eth gas price.")
         .arg(Arg::new("instance")
