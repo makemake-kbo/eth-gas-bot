@@ -2,6 +2,14 @@
 name = "eth_gas_bot"
 version = "0.1.0"
 edition = "2021"
+authors = ["makemake <vukasin@gostovic.me>"]
+license = "AGPL-3.0-only"
+description = "Pleroma bot for sending gas price alerts."
+readme = "README.md"
+homepage = "https://github.com/makemake-kbo/eth-gas-bot"
+repository = "https://github.com/makemake-kbo/eth-gas-bot"
+keywords = ["cli", "ethereum", "pleroma", "mastodon", "fediverse"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
